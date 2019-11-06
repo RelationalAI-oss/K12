@@ -41,6 +41,7 @@ http://creativecommons.org/publicdomain/zero/1.0/
         <h>lib/OptimizedAVX2/KeccakP-1600-SnP.h</h>
         <c>lib/OptimizedAVX2/KeccakP-1600-times2-SIMD128.c</c>
         <c>lib/OptimizedAVX2/KeccakP-1600-times4-SIMD256.c</c>
+        <gcc>-mavx2</gcc>
     </fragment>
 
     <fragment name="optimizedAVX512" inherits="optimized">
@@ -50,6 +51,7 @@ http://creativecommons.org/publicdomain/zero/1.0/
         <c>lib/OptimizedAVX512/KeccakP-1600-times2-SIMD512.c</c>
         <c>lib/OptimizedAVX512/KeccakP-1600-times4-SIMD512.c</c>
         <c>lib/OptimizedAVX512/KeccakP-1600-times8-SIMD512.c</c>
+        <gcc>-mavx512vl</gcc>
     </fragment>
 
     <!-- KangarooTwelve -->
