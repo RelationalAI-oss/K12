@@ -29,8 +29,8 @@ if [ $target = "x86_64-apple-darwin14" ]; then
   cp bin/generic64/libk12.so $prefix/lib/libk12.dylib
 else
   cp bin/generic64/libk12.so $prefix/lib
-  cp bin/Haswell/libk12.so $prefix/lib/libk12-avx2.so
-  cp bin/SkylakeX/libk12.so $prefix/lib/libk12-avx512vl.so
+  cp bin/Haswell/libk12.so $prefix/lib/libk12_avx2.so
+  cp bin/SkylakeX/libk12.so $prefix/lib/libk12_avx512vl.so
 fi
 
 """
