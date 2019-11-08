@@ -7,8 +7,6 @@ version = v"0.0.1"
 
 # Collection of sources required to build tpch-dbgen
 sources = [
-    "http://xmlsoft.org/sources/libxml2-2.9.9.tar.gz" => "94fb70890143e3c6549f265cee93ec064c80a84c42ad0f23e85ee1fd6540a871",
-    "http://xmlsoft.org/sources/libxslt-1.1.33.tar.gz" => "8e36605144409df979cab43d835002f63988f3dc94d5d3537c12796db90e38c8",
     joinpath(pwd())
 ]
 
