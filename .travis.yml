@@ -24,7 +24,7 @@ deploy:
     api_key:
         # Note; this api_key is only valid for RelationalAI-oss/duckdb-builder.jl; you need
         # to make your own: https://docs.travis-ci.com/user/deployment/releases/
-        secure: secure: sQP8PWIwZMA3Mzt5Vvp4CR99fM+LWmB5qHpU7ggUME7CIAuLwaRislOrsoVmcmIV/2IGiNNcsFV+xYsew1K27HMT+ZOE2X1piZ9G+qeuTCtXCCi2c5Nhx/FkNpj6IDf2nDWawzwSE90m3mW1o17/NK5svKncl/5WKZcN0EuF/pMvsvYZCixO3qRfq9GZq9vokKjGJpYyeD2XoSSQtZxLGrqcOA9XaTJZ+fQrJrqsJ6ffbUOEXez9j6ktkrIL39ROEoBlcB/EakC9O4vzgs+j3RllYeazRWdNegz/YYt4fsV8wkUUZx5sfE8MuJrKh1ubPOFhVNbeVLG+nRVJkASe58NKSxJ2IEaMkUCG/nqAqdUl+ZP92SNpCd1bzDKKbeBKGXND7bXFWhFOZEA6Z40CcQbYdAlqr0uE1WcnseAdsSOZfGyKnnMuyRM45dqtNv3d0Mr5c5zhSOeg01Y+TSBvLXw9IiViA6Kcv9k0gCweJl7/IpnovTatMDj3dxBZuFlEwUIdo4/9v2gMzSDH6qHr3qY4+cMaR9Qank/jsUSw22gx3vjLD9HhGazqbjU4mWtwR7N8hdMPr8j5F8RUD/3jNZ1WggWlTccLeNXJ+LLJzLExyMYSFfZIr6lkNtQ8hE9LQ8wsEu2mZRC5P5VTlmSjZoxStA1zZlACWasKk9a10cY=
+        secure: sQP8PWIwZMA3Mzt5Vvp4CR99fM+LWmB5qHpU7ggUME7CIAuLwaRislOrsoVmcmIV/2IGiNNcsFV+xYsew1K27HMT+ZOE2X1piZ9G+qeuTCtXCCi2c5Nhx/FkNpj6IDf2nDWawzwSE90m3mW1o17/NK5svKncl/5WKZcN0EuF/pMvsvYZCixO3qRfq9GZq9vokKjGJpYyeD2XoSSQtZxLGrqcOA9XaTJZ+fQrJrqsJ6ffbUOEXez9j6ktkrIL39ROEoBlcB/EakC9O4vzgs+j3RllYeazRWdNegz/YYt4fsV8wkUUZx5sfE8MuJrKh1ubPOFhVNbeVLG+nRVJkASe58NKSxJ2IEaMkUCG/nqAqdUl+ZP92SNpCd1bzDKKbeBKGXND7bXFWhFOZEA6Z40CcQbYdAlqr0uE1WcnseAdsSOZfGyKnnMuyRM45dqtNv3d0Mr5c5zhSOeg01Y+TSBvLXw9IiViA6Kcv9k0gCweJl7/IpnovTatMDj3dxBZuFlEwUIdo4/9v2gMzSDH6qHr3qY4+cMaR9Qank/jsUSw22gx3vjLD9HhGazqbjU4mWtwR7N8hdMPr8j5F8RUD/3jNZ1WggWlTccLeNXJ+LLJzLExyMYSFfZIr6lkNtQ8hE9LQ8wsEu2mZRC5P5VTlmSjZoxStA1zZlACWasKk9a10cY=
     file_glob: true
     file: products/*
     cleanup: false
